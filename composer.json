@@ -1,0 +1,24 @@
+{
+    "name": "szaleq/strauss-example",
+    "require": {
+        "brianhenryie/strauss": "^0.17.0",
+        "php-di/php-di": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Szaleq\\StraussExample\\": "src/"
+        }
+    },
+    "extra": {
+        "strauss": {
+            "target_directory": "dependencies",
+            "namespace_prefix": "Szaleq\\Dependencies\\"
+        }
+    },
+    "scripts": {
+        "prefix-namespaces": [
+            "strauss",
+            "composer dump-autoload"
+        ]
+    }
+}
