@@ -1,7 +1,7 @@
 {
     "name": "szaleq/strauss-example",
     "require": {
-        "brianhenryie/strauss": "^0.17.0",
+        "brianhenryie/strauss": "dev-master",
         "php-di/php-di": "^7.0"
     },
     "autoload": {
